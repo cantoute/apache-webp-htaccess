@@ -1,5 +1,5 @@
 
-This is inspired by rules from wordpress plugin https://github.com/rosell-dk/webp-express
+This is inspired by rules used in wordpress plugin https://github.com/rosell-dk/webp-express
 
 It will serve a webp image to browsers that can handle it.
 
@@ -14,7 +14,8 @@ imagemagick / graphicsmagic can do the job too
 
 Hope it helps
 
-==Notes
+### Notes
+
 ADDVARY variable has a meaning and without it apache won't add the Vary header on a rewrite rule.
 
 not sure that EXISTING variable is required, but as is it works as expected.
