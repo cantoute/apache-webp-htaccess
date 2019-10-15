@@ -6,7 +6,7 @@ It will serve a webp image to browsers that can handle it.
 `GET /my/image.jpg` will return image previously converted and saved as `/my/image.jpg.web`
 
 on debian you might want this package
-```bash
+```
 ~# apt install webp
 ```
 
